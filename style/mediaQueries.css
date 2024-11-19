@@ -1,0 +1,92 @@
+@media screen and (max-width: 768px) {
+
+    /* Section 1: Home */
+
+    #home_sec h1 {
+        font-size: 30px;
+        transform: translateX(15px);
+    }
+
+    #home_sec b {
+        font-size: 30px;
+        text-align: center;
+        vertical-align: -8px;
+    }
+
+    #home_sec #line {
+        vertical-align: -3px;
+        transform: translateX(-25px);
+        animation: line_close 10s steps(100) infinite;
+    }
+
+    @keyframes text1 {
+
+        0%,
+        33.333%,
+        66.666%,
+        100% {
+            width: 0;
+        }
+
+        7%,
+        26% {
+            width: 195px;
+        }
+    }
+
+    @keyframes text2 {
+
+        0%,
+        33.333%,
+        66.666%,
+        100% {
+            width: 0;
+            transform: translateX(-8px);
+        }
+
+        39%,
+        60% {
+            width: 153px;
+            transform: translateX(-8px);
+        }
+    }
+
+    @keyframes text3 {
+
+        0%,
+        33.333%,
+        66.666%,
+        100% {
+            width: 0;
+            transform: translateX(-16px);
+        }
+
+        74%,
+        93% {
+            width: 137px;
+            transform: translateX(-16px);
+        }
+    }
+
+    /* end of section 1 */
+
+    /* Section 4: Portfolio */
+
+    #portfolio_sec img {
+        width: 100%;
+    }
+
+    /* end of section 4 */
+
+}
+
+@media screen and (max-width: 992px) {
+    /* Section 8: Contact */
+    #contact_sec form .row {
+        padding: 0px 12px;
+    }
+    #contact_sec form input {
+        width: 100%;
+    }
+    /* end of section 8 */
+}
